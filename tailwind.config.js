@@ -2,8 +2,10 @@
 module.exports = {
   content: ["./index.html"],
   theme: {
-    container: {
-      center: true
+    extend: {
+      fontFamily: {
+        sans: ['"Roboto-light"', 'sans-serif']
+      },
     },
   },
   plugins: [],

@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    @font-face {
+      font-family: 'Roboto-light';
+      font-style: normal;
+      font-weight: 200;
+      font-display: swap;
+      src: url(./Roboto-light.woff2) format('woff2');
+    }
+  }
