@@ -563,7 +563,7 @@ video {
 
   font-display: swap;
 
-  src: url(./Roboto-light.woff2) format('woff2');
+  src: url(./fonts/Roboto-light.woff2) format('woff2');
 }
 
 @font-face {
@@ -575,7 +575,7 @@ video {
 
   font-display: swap;
 
-  src: url(./Roboto.woff2) format('woff2');
+  src: url(./fonts/Roboto.woff2) format('woff2');
 }
 
 .container {
