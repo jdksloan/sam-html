@@ -3,12 +3,12 @@ module.exports = {
   content: ["./index.html"],
   theme: {
     backgroundImage: {
-      jumbotron: "url('./images/nordwood-themes-nDd3dIkkOLo-unsplash.jpg')",
+      jumbotron: "url('./images/leone-venter-VieM9BdZKFo-unsplash.jpg')",
     },
     extend: {
       fontFamily: {
-        sans: ['"Roboto-light"', 'sans-serif'],
-        roboto: ['"Roboto"', 'sans-serif'],
+        sans: ['"Palatino-light"', 'sans-serif'],
+        palatino: ['"Palatino"', 'sans-serif'],
       },
     },
   },

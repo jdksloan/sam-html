@@ -154,7 +154,7 @@ html,
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: "Roboto-light", sans-serif;
+  font-family: "Palatino-light", sans-serif;
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -578,6 +578,30 @@ video {
   src: url(./fonts/Roboto.woff2) format('woff2');
 }
 
+@font-face {
+  font-family: 'palatino';
+
+  font-style: normal;
+
+  font-weight: 400;
+
+  font-display: swap;
+
+  src: url(./fonts/palatino-regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'palatino-light';
+
+  font-style: normal;
+
+  font-weight: 200;
+
+  font-display: swap;
+
+  src: url(./fonts/palatino-regular.woff) format('woff');
+}
+
 .container {
   width: 100%;
 }
@@ -646,15 +670,6 @@ video {
   margin-bottom: 1rem;
 }
 
-.my-8 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-.mb-8 {
-  margin-bottom: 2rem;
-}
-
 .mt-4 {
   margin-top: 1rem;
 }
@@ -691,16 +706,8 @@ video {
   height: 20rem;
 }
 
-.h-\[350px\] {
-  height: 350px;
-}
-
 .h-full {
   height: 100%;
-}
-
-.h-\[500px\] {
-  height: 500px;
 }
 
 .h-screen {
@@ -800,7 +807,7 @@ video {
 }
 
 .bg-jumbotron {
-  background-image: url('./images/nordwood-themes-nDd3dIkkOLo-unsplash.jpg');
+  background-image: url('./images/leone-venter-VieM9BdZKFo-unsplash.jpg');
 }
 
 .bg-cover {
@@ -813,10 +820,6 @@ video {
 
 .bg-center {
   background-position: center;
-}
-
-.bg-no-repeat {
-  background-repeat: no-repeat;
 }
 
 .object-contain {
@@ -838,6 +841,11 @@ video {
   padding-right: 1rem;
 }
 
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -848,22 +856,21 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
 }
 
 .text-center {
   text-align: center;
 }
 
-.font-roboto {
-  font-family: "Roboto", sans-serif;
+.font-palatino {
+  font-family: "Palatino", sans-serif;
 }
 
 .text-4xl {
@@ -910,16 +917,6 @@ video {
 
 .hover\:underline:hover {
   text-decoration-line: underline;
-}
-
-@media (min-width: 768px) {
-  .md\:h-\[350px\] {
-    height: 350px;
-  }
-
-  .md\:h-\[500px\] {
-    height: 500px;
-  }
 }
 
 @media (min-width: 1024px) {

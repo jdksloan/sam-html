@@ -18,4 +18,18 @@
       font-display: swap;
       src: url(./fonts/Roboto.woff2) format('woff2');
     }
+    @font-face {
+      font-family: 'palatino';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(./fonts/palatino-regular.woff) format('woff');
+    }
+    @font-face {
+      font-family: 'palatino-light';
+      font-style: normal;
+      font-weight: 200;
+      font-display: swap;
+      src: url(./fonts/palatino-regular.woff) format('woff');
+    }
   }
